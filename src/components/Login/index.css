@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.login-dark{
+  color: #72767d;
+  font-size: 18px;
+  padding: 40px;
+}
+
+.login-title{
+  font-size: 26px;
+  line-height: 32px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.login-wrapper{
+  text-align: left;
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0px 20px 0px 0px;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.login-subTitle{
+  color: #72767d;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.login-tokenTitle{
+  color: #b9bbbe;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-weight: 600;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.input{
+  background-color: rgba(0,0,0,.1);
+  border-color: rgba(0,0,0,.3);
+  color: #f6f6f7;
+  height: 40px;
+  padding: 10px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  outline: none;
+  transition: background-color .15s ease,border .15s ease;
+  width: 100%;
+  font-size: 15px;
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  color: #f6f6f7;
+}
+
+.how{
+  color: #7289da;
+  font-size: 13px;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  height: auto;
+  padding: 2px 4px;
+  cursor: pointer;
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.login-submit{
+  background-color: #7289da;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  width: 100%;
+  height: 44px;
+  min-height: 44px;
+  min-width: 130px;
+  transition: background-color .17s ease,color .17s ease;
+  align-items: center;
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+  padding: 2px 16px;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.login-submit:focus {
+  outline: none;
+}
+
+.login-submit:hover {
+    background-color: #677bc4;
+}
