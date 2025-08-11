@@ -1,5 +1,5 @@
 import express from 'express';
-import music from '../../model/music';
+import music from '../../services/music';
 
 const router = express.Router();
 

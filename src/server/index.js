@@ -5,7 +5,7 @@ import bodyParser from 'body-parser';
 import index from './controller/index';
 import api from './controller/api';
 
-require('./model/database');
+require('./services/database');
 
 let app = express();
 let PORT = 3001;
